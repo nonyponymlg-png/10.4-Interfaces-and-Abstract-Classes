@@ -1,7 +1,7 @@
 public class Person implements Entity {
   public String name;
   public int attractiveness;
-  
+  // NO GETTERS AND SETTERS (for realism,, of course)
   public Person(String _name, int _attractiveness) {
     name = _name;
     attractiveness = _attractiveness;
