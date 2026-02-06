@@ -8,12 +8,12 @@ public abstract class Pet implements Entity {
   }
   
   @Override
-  void interact() {
+  public void interact() {
     System.out.println("Hi master!");
   }
 
   @Override
-  void update() {
+  public void update() {
     life--;
   }
 
